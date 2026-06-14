@@ -1,0 +1,17 @@
+# 解析の作業成果（Bitwarden の著作物を含むため非公開）
+/analysis/
+
+# Claude Code 用の指示ファイル（公開リポジトリには含めない）
+/CLAUDE.md
+
+# Bitwarden アプリ/拡張の実体
+*.asar
+*.xpi
+
+# 依存・ビルド・OS・作業ファイル
+node_modules/
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+/bwpk
