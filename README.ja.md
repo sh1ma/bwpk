@@ -22,7 +22,16 @@ Bitwarden のパスキー機能を**静的解析**でリバースエンジニア
 
 ---
 
-## インストール / ビルド
+## インストール
+
+```bash
+go install github.com/sh1ma/bwpk/cmd/bwpk@latest
+```
+
+`bwpk` バイナリが `$(go env GOBIN)`（無ければ `$(go env GOPATH)/bin`）に入ります。
+そのディレクトリに `PATH` を通してください。
+
+クローンからビルドする場合:
 
 ```bash
 go build -o bwpk ./cmd/bwpk

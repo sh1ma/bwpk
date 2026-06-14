@@ -22,7 +22,16 @@ The vault can be unlocked with either a **master password** or **TouchID (biomet
 
 ---
 
-## Install / Build
+## Install
+
+```bash
+go install github.com/sh1ma/bwpk/cmd/bwpk@latest
+```
+
+This installs the `bwpk` binary into `$(go env GOBIN)` (or `$(go env GOPATH)/bin`).
+Make sure that directory is on your `PATH`.
+
+Or build from a clone:
 
 ```bash
 go build -o bwpk ./cmd/bwpk
