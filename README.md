@@ -37,7 +37,7 @@ Or build from a clone:
 go build -o bwpk ./cmd/bwpk
 ```
 
-Requires Go 1.24+. The CLI is built with [spf13/cobra](https://github.com/spf13/cobra).
+Requires Go 1.25+. The CLI is built with [spf13/cobra](https://github.com/spf13/cobra).
 
 ---
 

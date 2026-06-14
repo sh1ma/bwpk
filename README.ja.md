@@ -37,7 +37,7 @@ go install github.com/sh1ma/bwpk/cmd/bwpk@latest
 go build -o bwpk ./cmd/bwpk
 ```
 
-Go 1.24+ を想定。CLI フレームワークに [spf13/cobra](https://github.com/spf13/cobra) を使用しています。
+Go 1.25+ を想定。CLI フレームワークに [spf13/cobra](https://github.com/spf13/cobra) を使用しています。
 
 ---
 
